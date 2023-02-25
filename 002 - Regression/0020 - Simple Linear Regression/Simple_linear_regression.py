@@ -67,3 +67,28 @@ plt.title('Salary vs Experience (Test Set)')
 plt.xlabel('Years of Experience')
 plt.ylabel('Salary')
 plt.show()
+
+"""# **DOUBTS**
+
+###FOR MORE CLARIFICATION
+"""
+
+plt.scatter(X_test, y_test, color = 'red')
+
+plt.plot(X_test, y_pred, color = 'blue')
+
+plt.title('Salary vs Experience (Test Set)')
+plt.xlabel('Years of Experience')
+plt.ylabel('Salary')
+plt.show()
+
+"""*Since we have predicted the coefficients b0 and b1, they will be on the same line.*"""
+
+plt.scatter(X_train, X_train_pred, color = 'red')
+
+plt.scatter(X_test, y_pred, color = 'blue')
+
+plt.title('Salary vs Experience (Test Set)')
+plt.xlabel('Years of Experience')
+plt.ylabel('Salary')
+plt.show()
